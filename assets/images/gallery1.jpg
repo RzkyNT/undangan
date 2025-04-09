@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#f0f0f0" x="0" y="0" width="800" height="600"></rect>
+        <text font-family="Arial" font-size="36" font-weight="bold" fill="#888888" text-anchor="middle" x="400" y="300">
+            <tspan x="400" y="300">Persiapan Manasik Haji</tspan>
+        </text>
+        <path d="M400,150 C455.228,150 500,194.772 500,250 C500,305.228 455.228,350 400,350 C344.772,350 300,305.228 300,250 C300,194.772 344.772,150 400,150 Z" stroke="#0d5c3e" stroke-width="10"></path>
+        <path d="M400,400 C488.366,400 560,471.634 560,560 L240,560 C240,471.634 311.634,400 400,400 Z" fill="#0d5c3e"></path>
+    </g>
+</svg>

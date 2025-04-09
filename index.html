@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Undangan Syukuran Keberangkatan Haji Keluarga Alm. Mulyadi Joyo Martono">
+    <meta name="keywords" content="undangan, syukuran, haji, keberangkatan haji">
+    <meta property="og:title" content="Undangan Syukuran Keberangkatan Haji">
+    <meta property="og:description" content="Kami mengundang Anda untuk menghadiri acara Syukuran Keberangkatan Haji Keluarga Alm. Mulyadi Joyo Martono">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    <title>Undangan Syukuran Keberangkatan Haji</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <script src="assets/js/confetti.min.js"></script>
+</head>
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Konfeti Canvas -->
+    <canvas id="confetti-canvas"></canvas>
+    <div class="container">
+        <div class="card">
+            <div class="card-header parallax-bg">
+                <div class="ornament top-left"></div>
+                <div class="ornament top-right"></div>
+                <h1 class="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h1>
+                <p class="arabic-text">الحمد لله رب العالمين</p>
+                <div class="header-title">
+                    <h2>Undangan Syukuran</h2>
+                    <h3>Keberangkatan Haji</h3>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <div class="host-info">
+                    <p class="host-name">Keluarga Alm. Mulyadi Joyo Martono</p>
+                    <p class="host-title">Mengundang Bapak/Ibu/Saudara/i</p>
+                </div>
+
+                <div class="invitation-text">
+                    <p>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara:</p>
+
+                    <h3 class="event-title"><i class="fas fa-pray"></i> Syukuran & Doa Keberangkatan Haji <i class="fas fa-kaaba"></i></h3>
+
+                    <div class="countdown-container">
+                        <h4 class="countdown-title">Acara Akan Dimulai Dalam:</h4>
+                        <div class="countdown-timer" id="countdown">
+                            <div class="countdown-item">
+                                <div class="countdown-number" id="countdown-days" style="--item-index: 0">00</div>
+                                <div class="countdown-label">Hari</div>
+                            </div>
+                            <div class="countdown-item">
+                                <div class="countdown-number" id="countdown-hours" style="--item-index: 1">00</div>
+                                <div class="countdown-label">Jam</div>
+                            </div>
+                            <div class="countdown-item">
+                                <div class="countdown-number" id="countdown-minutes" style="--item-index: 2">00</div>
+                                <div class="countdown-label">Menit</div>
+                            </div>
+                            <div class="countdown-item">
+                                <div class="countdown-number" id="countdown-seconds" style="--item-index: 3">00</div>
+                                <div class="countdown-label">Detik</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="event-details">
+                        <div class="detail-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div class="detail-text">
+                                <h4>Hari/Tanggal:</h4>
+                                <p>Jum'at, 18 April 2025</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <i class="fas fa-clock"></i>
+                            <div class="detail-text">
+                                <h4>Waktu:</h4>
+                                <p>Pukul 09.30 WIB - Selesai</p>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="detail-text">
+                                <h4>Tempat:</h4>
+                                <p>Minhaqua Alinda</p>
+                                <p>Blok U1 no 7, RT.009/RW.021, Kaliabang Tengah, Kec. Bekasi Utara, Kota Bks, Jawa Barat 17125</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="agenda">
+                        <h3>Rangkaian Acara:</h3>
+                        <ul>
+                            <li><i class="fas fa-circle-check"></i> Pembacaan Ayat Suci Al-Qur'an</li>
+                            <li><i class="fas fa-circle-check"></i> Tausiyah</li>
+                            <li><i class="fas fa-circle-check"></i> Doa Bersama</li>
+                            <li><i class="fas fa-circle-check"></i> Silaturahmi</li>
+                        </ul>
+                    </div>
+
+                    <div class="closing-text">
+                        <p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu. Kehadiran Bapak/Ibu/Saudara/i adalah keberkahan bagi kami.</p>
+                        <p class="quote">"Dan berbekallah, sesungguhnya sebaik-baik bekal adalah takwa."<br>(QS. Al-Baqarah: 197)</p>
+                        <p class="additional-note">* Mohon doanya agar kami diberikan kelancaran dan keselamatan dalam menjalankan ibadah haji</p>
+                    </div>
+                </div>
+
+                <div class="calon-jamaah">
+                    <h3>Calon Jamaah Haji:</h3>
+                    <p class="text-center">Memohon Doa Restu Untuk Keberangkatan</p>
+                    <div class="jamaah-list">
+                        <div class="jamaah-item">
+                            <div class="jamaah-photo jamaah-photo-1">
+                                <img src="assets/images/jamaah1.jpg" alt="Foto Jamaah 1">
+                            </div>
+                            <div class="jamaah-info">
+                                <h4>Lutfy Fikry</h4>
+                                <p>Bin Effendy</p>
+                            </div>
+                        </div>
+
+                        <div class="jamaah-item">
+                            <div class="jamaah-photo jamaah-photo-2">
+                                <img src="assets/images/jamaah2.jpg" alt="Foto Jamaah 2">
+                            </div>
+                            <div class="jamaah-info">
+                                <h4>Neneng Kona'ah</h4>
+                                <p>Binti Mulyadi</p>
+                            </div>
+                        </div>
+
+                        <div class="jamaah-item">
+                            <div class="jamaah-photo">
+                                <img src="assets/images/jamaah3.jpg" alt="Foto Jamaah 3">
+                            </div>
+                            <div class="jamaah-info">
+                                <h4>Mukholasoh</h4>
+                                <p>Binti Mulyadi</p>
+                            </div>
+                        </div>
+
+                        <div class="jamaah-item"><!--  -->
+                            <div class="jamaah-photo">
+                                <img src="assets/images/jamaah4.jpg" alt="Foto Jamaah 4">
+                            </div>
+                            <div class="jamaah-info">
+                                <h4>Halimatus Sa'diyyah</h4>
+                                <p>Binti Mulyadi</p>
+                            </div>
+                        </div>
+
+                        <div class="jamaah-item">
+                            <div class="jamaah-photo">
+                                <img src="assets/images/jamaah5.jpg" alt="Foto Jamaah 5">
+                            </div>
+                            <div class="jamaah-info">
+                                <h4>Minkhatulmaula</h4>
+                                <p>Binti Mulyadi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Galeri Foto -->
+                <!-- Quotes Islami -->
+                <div class="quotes-container">
+                    <p class="quote">"Haji adalah perjalanan tubuh, pikiran, dan jiwa menuju Allah. Semoga Allah menerima ibadah haji kalian dan membawa kalian kembali dengan selamat."</p>
+                    <div class="quote-divider"></div>
+                    <p class="quote-author">- Keluarga dan Sahabat</p>
+                </div>
+
+                <div class="gallery-container">
+                    <h3 class="gallery-title"><i class="fas fa-images"></i> Galeri Foto</h3>
+                    <p>Beberapa momen persiapan keberangkatan haji keluarga kami</p>
+
+                    <div class="gallery-grid">
+                        <div class="gallery-item" onclick="openModal();currentSlide(1)">
+                            <img src="assets/images/gallery1.jpg" alt="Foto Persiapan 1">
+                            <div class="gallery-caption">Persiapan Manasik Haji</div>
+                        </div>
+                        <div class="gallery-item" onclick="openModal();currentSlide(2)">
+                            <img src="assets/images/gallery2.jpg" alt="Foto Persiapan 2">
+                            <div class="gallery-caption">Bersama Keluarga</div>
+                        </div>
+                        <div class="gallery-item" onclick="openModal();currentSlide(3)">
+                            <img src="assets/images/gallery3.jpg" alt="Foto Persiapan 3">
+                            <div class="gallery-caption">Pengajian Keluarga</div>
+                        </div>
+                        <div class="gallery-item" onclick="openModal();currentSlide(4)">
+                            <img src="assets/images/gallery4.jpg" alt="Foto Persiapan 4">
+                            <div class="gallery-caption">Persiapan Perlengkapan</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Galeri -->
+                <div id="galleryModal" class="gallery-modal">
+                    <span class="modal-close" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <img id="modalImage" src="">
+                        <div id="modalCaption" class="modal-caption"></div>
+                    </div>
+                    <a class="modal-prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="modal-next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <!-- RSVP Form -->
+                <div class="rsvp-container">
+                    <h3 class="rsvp-title"><i class="fas fa-envelope-open-text"></i> Konfirmasi Kehadiran</h3>
+                    <p>Mohon konfirmasi kehadiran Anda untuk membantu kami mempersiapkan acara dengan baik</p>
+
+                    <form class="rsvp-form" id="rsvpForm">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="entry.1684571444" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="entry.446052785">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon/WhatsApp</label>
+                            <input type="tel" id="phone" name="entry.1387535761" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Konfirmasi Kehadiran</label>
+                            <div class="radio-group">
+                                <div class="radio-option">
+                                    <input type="radio" id="attend-yes" name="entry.610841658" value="Hadir" required>
+                                    <label for="attend-yes">Hadir</label>
+                                </div>
+                                <div class="radio-option">
+                                    <input type="radio" id="attend-no" name="entry.610841658" value="Tidak Hadir">
+                                    <label for="attend-no">Tidak Hadir</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="guests">Jumlah Tamu</label>
+                            <select id="guests" name="entry.1239766814">
+                                <option value="1 Orang">1 orang</option>
+                                <option value="2 Orang">2 orang</option>
+                                <option value="3 Orang">3 orang</option>
+                                <option value="4 Orang">4 orang</option>
+                                <option value="5+ Orang">5+ orang</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Ucapan & Doa</label>
+                            <textarea id="message" name="entry.581423079" rows="4" placeholder="Sampaikan ucapan dan doa Anda untuk keluarga kami"></textarea>
+                        </div>
+
+                        <!-- Hidden inputs untuk parameter tambahan Google Form -->
+                        <input type="hidden" name="fvv" value="1">
+                        <input type="hidden" name="dlut" value="1744239366702">
+                        <input type="hidden" name="fbzx" value="2939541846976445140">
+                        <input type="hidden" name="pageHistory" value="0">
+                        <input type="hidden" name="entry.610841658_sentinel" value="">
+
+                        <button type="submit">Kirim Konfirmasi</button>
+                    </form>
+
+                    <div id="rsvpSuccess" class="rsvp-message rsvp-success">
+                        <i class="fas fa-check-circle"></i> Terima kasih atas konfirmasi kehadiran Anda! Kami menantikan kehadiran Anda di acara syukuran kami.
+                    </div>
+
+                    <div id="rsvpError" class="rsvp-message rsvp-error">
+                        <i class="fas fa-exclamation-circle"></i> Maaf, terjadi kesalahan saat mengirim konfirmasi. Silakan coba lagi atau hubungi kami melalui kontak yang tersedia.
+                    </div>
+
+                    <div class="rsvp-info" style="margin-top: 20px; font-size: 0.9rem; color: #666;">
+                        <p><i class="fas fa-info-circle"></i> Jika Anda tidak menerima konfirmasi email, jangan khawatir. Kami tetap menerima konfirmasi kehadiran Anda.</p>
+                    </div>
+
+                    <!-- Debug Info untuk membantu troubleshooting -->
+                    <div id="debugInfo" style="display: none; margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; font-family: monospace; font-size: 12px;">
+                        <h4 style="margin-top: 0;">Debug Info (untuk developer):</h4>
+                        <pre id="debugContent"></pre>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h3>Informasi Kontak:</h3>
+                    <div class="contact-list">
+                        <div class="contact-item">
+                            <i class="fab fa-whatsapp"></i>
+                            <p><a class="contact-link" href="https://wa.me/62895602416781">+62 895-6024-16781</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p><a class="contact-link" href="tel:62895602416781">+62 895-6024-16781</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <h3>Lokasi Acara:</h3>
+                    <div class="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2904629572133!2d107.0298361!3d-6.2297899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698c0895c84b8b%3A0x84580bec760e8285!2sMinhaqua%20Alinda!5e0!3m2!1sid!2sid!4v1650123456789!5m2!1sid!2sid" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                <div class="ornament bottom-left"></div>
+                <div class="ornament bottom-right"></div>
+                <p class="footer-text">Mohon doa restu untuk kelancaran dan keselamatan ibadah haji keluarga kami</p>
+                <p class="copyright">&copy; 2025 Keluarga Alm. Mulyadi Joyo Martono</p>
+                <div class="qr-code">
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://maps.app.goo.gl/c4LHEFhicA3Czf588" alt="QR Code Lokasi">
+                    <p>Scan untuk lokasi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="floating-buttons">
+        <div class="music-tooltip" id="music-tooltip">Klik untuk memutar musik latar</div>
+        <div class="floating-button music-button" id="music-button" onclick="toggleMusic()">
+            <i class="fas fa-music"></i>
+        </div>
+        <div class="floating-button share-button" onclick="shareInvitation()">
+            <i class="fas fa-share-alt"></i>
+        </div>
+    </div>
+
+    <!-- Audio Background -->
+    <audio id="background-music" loop>
+        <source src="assets/audio/background-music.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung audio HTML5.
+    </audio>
+
+    <script>
+        // Fungsi untuk berbagi undangan
+        function shareInvitation() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Undangan Syukuran Keberangkatan Haji',
+                    text: 'Anda diundang untuk menghadiri acara Syukuran Keberangkatan Haji Keluarga Alm. Mulyadi Joyo Martono pada Jum\'at, 18 April 2025',
+                    url: window.location.href
+                })
+                .then(() => console.log('Berhasil membagikan'))
+                .catch((error) => console.log('Error sharing:', error));
+            } else {
+                alert('Fitur berbagi tidak didukung di browser Anda. Silakan salin URL dan bagikan secara manual.');
+            }
+        }
+
+        // Deklarasi variabel countdownInterval di luar fungsi
+        let countdownInterval;
+
+        // Countdown Timer
+        function updateCountdown() {
+            // Set tanggal acara (format: tahun, bulan (0-11), tanggal, jam, menit, detik)
+            const eventDate = new Date(2025, 3, 18, 9, 30, 0).getTime(); // 18 April 2025, 09:30 WIB
+            const now = new Date().getTime();
+            const timeLeft = eventDate - now;
+
+            // Hitung hari, jam, menit, detik
+            const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+            // Update elemen HTML
+            document.getElementById('countdown-days').textContent = days.toString().padStart(2, '0');
+            document.getElementById('countdown-hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('countdown-minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('countdown-seconds').textContent = seconds.toString().padStart(2, '0');
+
+            // Jika waktu sudah habis
+            if (timeLeft < 0) {
+                if (countdownInterval) {
+                    clearInterval(countdownInterval);
+                }
+                document.getElementById('countdown-days').textContent = '00';
+                document.getElementById('countdown-hours').textContent = '00';
+                document.getElementById('countdown-minutes').textContent = '00';
+                document.getElementById('countdown-seconds').textContent = '00';
+                document.querySelector('.countdown-title').textContent = 'Acara Sedang Berlangsung!';
+            }
+        }
+
+        // Update countdown setiap detik
+        updateCountdown();
+        countdownInterval = setInterval(updateCountdown, 1000);
+
+        // Animasi saat scroll
+        function animateOnScroll() {
+            // Seleksi semua elemen yang akan dianimasikan
+            const fadeInElements = document.querySelectorAll('.detail-item, .agenda, .jamaah-item, .contact-item, .event-title, .countdown-container, .closing-text, .map-container, .contact-info, .host-info, .qr-code, .footer-text, .copyright, .countdown-item, .jamaah-photo, .jamaah-info, .contact-list, .social-media');
+
+            // Animasi untuk elemen-elemen tersebut
+            fadeInElements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.2;
+
+                if (elementPosition < screenPosition) {
+                    element.classList.add('animate-fadeIn');
+                }
+            });
+
+            // Animasi khusus untuk item agenda
+            const agendaItems = document.querySelectorAll('.agenda li');
+            agendaItems.forEach((item, index) => {
+                item.style.setProperty('--item-index', index);
+                const elementPosition = item.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.1;
+
+                if (elementPosition < screenPosition) {
+                    setTimeout(() => {
+                        item.classList.add('animate-fadeIn');
+                    }, index * 100);
+                }
+            });
+
+            // Animasi khusus untuk countdown items
+            const countdownItems = document.querySelectorAll('.countdown-item');
+            countdownItems.forEach((item, index) => {
+                const elementPosition = item.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.1;
+
+                if (elementPosition < screenPosition) {
+                    setTimeout(() => {
+                        item.classList.add('animate-fadeIn');
+                    }, index * 150);
+                }
+            });
+
+            // Animasi khusus untuk jamaah items
+            const jamaahItems = document.querySelectorAll('.jamaah-item');
+            jamaahItems.forEach((item, index) => {
+                const elementPosition = item.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.1;
+
+                if (elementPosition < screenPosition) {
+                    setTimeout(() => {
+                        item.classList.add('animate-fadeIn');
+                    }, index * 200);
+                }
+            });
+        }
+
+        // Tambahkan event listener untuk scroll
+        window.addEventListener('scroll', animateOnScroll);
+        // Panggil sekali saat halaman dimuat
+        window.addEventListener('load', animateOnScroll);
+
+        // Kontrol musik latar
+        const music = document.getElementById('background-music');
+        const musicButton = document.getElementById('music-button');
+        let isPlaying = false;
+
+        // Fungsi untuk toggle musik
+        function toggleMusic() {
+            // Sembunyikan tooltip jika ada
+            const musicTooltip = document.getElementById('music-tooltip');
+            if (musicTooltip.classList.contains('show')) {
+                musicTooltip.classList.remove('show');
+            }
+
+            if (isPlaying) {
+                music.pause();
+                musicButton.classList.remove('playing');
+                musicButton.innerHTML = '<i class="fas fa-music"></i>';
+            } else {
+                music.play().then(() => {
+                    // Berhasil memutar
+                    console.log('Audio berhasil diputar');
+                }).catch((error) => {
+                    // Gagal memutar (kemungkinan karena kebijakan browser)
+                    console.log('Gagal memutar audio:', error);
+                    alert('Silakan klik tombol musik untuk memulai audio');
+                });
+                musicButton.classList.add('playing');
+                musicButton.innerHTML = '<i class="fas fa-pause"></i>';
+            }
+            isPlaying = !isPlaying;
+        }
+
+        // Coba putar musik otomatis saat halaman dimuat
+        document.addEventListener('DOMContentLoaded', function() {
+            // Coba putar musik otomatis
+            music.volume = 0.7; // Set volume ke 70%
+
+            // Coba putar musik dengan user gesture simulation
+            setTimeout(function() {
+                music.play().then(() => {
+                    // Berhasil memutar
+                    isPlaying = true;
+                    musicButton.classList.add('playing');
+                    musicButton.innerHTML = '<i class="fas fa-pause"></i>';
+                    console.log('Audio berhasil diputar otomatis');
+                }).catch((error) => {
+                    // Gagal memutar (kemungkinan karena kebijakan browser)
+                    console.log('Gagal memutar audio otomatis:', error);
+                    // Tidak perlu alert di sini, biarkan user mengklik tombol musik
+
+                    // Tambahkan animasi pada tombol musik untuk menarik perhatian
+                    musicButton.classList.add('attention');
+
+                    // Tampilkan tooltip
+                    const musicTooltip = document.getElementById('music-tooltip');
+                    musicTooltip.classList.add('show');
+
+                    setTimeout(() => {
+                        musicButton.classList.remove('attention');
+                        // Sembunyikan tooltip setelah beberapa saat
+                        setTimeout(() => {
+                            musicTooltip.classList.remove('show');
+                        }, 2000);
+                    }, 3000);
+                });
+            }, 1000);
+        });
+
+        // Tambahkan event listener untuk interaksi pengguna untuk membantu autoplay
+        document.addEventListener('click', function() {
+            if (!isPlaying) {
+                music.play().then(() => {
+                    isPlaying = true;
+                    musicButton.classList.add('playing');
+                    musicButton.innerHTML = '<i class="fas fa-pause"></i>';
+                }).catch(() => {});
+            }
+        }, { once: true });
+
+        // Galeri Foto Modal
+        let slideIndex = 1;
+        const slides = [
+            { src: 'assets/images/gallery1.jpg', caption: 'Persiapan Manasik Haji' },
+            { src: 'assets/images/gallery2.jpg', caption: 'Bersama Keluarga' },
+            { src: 'assets/images/gallery3.jpg', caption: 'Pengajian Keluarga' },
+            { src: 'assets/images/gallery4.jpg', caption: 'Persiapan Perlengkapan' }
+        ];
+
+        function openModal() {
+            document.getElementById('galleryModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('galleryModal').style.display = 'none';
+        }
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+
+            const modalImg = document.getElementById('modalImage');
+            const captionText = document.getElementById('modalCaption');
+
+            modalImg.src = slides[slideIndex-1].src;
+            captionText.innerHTML = slides[slideIndex-1].caption;
+        }
+
+        // Close modal when clicking outside of content
+        window.onclick = function(event) {
+            const modal = document.getElementById('galleryModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // RSVP Form Handling dengan Google Forms menggunakan Fetch API
+
+        // Fungsi untuk mengirim data form ke Google Forms
+        function submitToGoogleForms(formData) {
+            const url = 'https://docs.google.com/forms/d/e/1FAIpQLSe_jVKBPyRgmh_xZQqOxmx1Vycxozc73p-UnPDfCSrQhqSVew/formResponse';
+
+            // Konversi FormData ke URLSearchParams
+            const params = new URLSearchParams();
+            for (let pair of formData.entries()) {
+                params.append(pair[0], pair[1]);
+            }
+
+            // Log data yang dikirim
+            console.log('Mengirim data ke Google Forms:', params.toString());
+
+            // Coba metode 1: Fetch API dengan no-cors
+            try {
+                fetch(url, {
+                    method: 'POST',
+                    mode: 'no-cors',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: params.toString()
+                })
+                .then(response => {
+                    console.log('Form berhasil dikirim dengan Fetch API');
+                    showSuccessMessage();
+                })
+                .catch(error => {
+                    console.error('Error dengan Fetch API:', error);
+                    // Coba metode 2 jika metode 1 gagal
+                    submitWithXHR(url, params.toString());
+                });
+            } catch (error) {
+                console.error('Error dengan Fetch API:', error);
+                // Coba metode 2 jika metode 1 gagal
+                submitWithXHR(url, params.toString());
+            }
+        }
+
+        // Metode alternatif menggunakan XMLHttpRequest
+        function submitWithXHR(url, data) {
+            console.log('Mencoba mengirim dengan XMLHttpRequest');
+            try {
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', url, true);
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+
+                xhr.onload = function() {
+                    console.log('Form berhasil dikirim dengan XMLHttpRequest');
+                    showSuccessMessage();
+                };
+
+                xhr.onerror = function() {
+                    console.error('Error dengan XMLHttpRequest');
+                    // Coba metode 3: Buat form tersembunyi dan submit secara tradisional
+                    submitWithHiddenForm(url, data);
+                };
+
+                xhr.send(data);
+            } catch (error) {
+                console.error('Error dengan XMLHttpRequest:', error);
+                // Coba metode 3 jika metode 2 gagal
+                submitWithHiddenForm(url, data);
+            }
+        }
+
+        // Metode terakhir menggunakan form tersembunyi
+        function submitWithHiddenForm(url, data) {
+            console.log('Mencoba mengirim dengan form tersembunyi');
+            try {
+                // Buat form tersembunyi
+                const hiddenForm = document.createElement('form');
+                hiddenForm.method = 'POST';
+                hiddenForm.action = url;
+                hiddenForm.target = '_blank';
+                hiddenForm.style.display = 'none';
+
+                // Tambahkan data sebagai input tersembunyi
+                const params = new URLSearchParams(data);
+                for (let pair of params.entries()) {
+                    const input = document.createElement('input');
+                    input.type = 'hidden';
+                    input.name = pair[0];
+                    input.value = pair[1];
+                    hiddenForm.appendChild(input);
+                }
+
+                // Tambahkan form ke body, submit, lalu hapus
+                document.body.appendChild(hiddenForm);
+                hiddenForm.submit();
+
+                // Tampilkan pesan sukses
+                showSuccessMessage();
+
+                // Hapus form setelah beberapa saat
+                setTimeout(() => {
+                    document.body.removeChild(hiddenForm);
+                }, 1000);
+            } catch (error) {
+                console.error('Error dengan form tersembunyi:', error);
+                showErrorMessage();
+            }
+        }
+
+        // Fungsi untuk menampilkan pesan sukses
+        function showSuccessMessage() {
+            document.getElementById('rsvpSuccess').style.display = 'block';
+            document.getElementById('rsvpForm').reset();
+            document.getElementById('rsvpSuccess').scrollIntoView({ behavior: 'smooth' });
+
+            setTimeout(() => {
+                document.getElementById('rsvpSuccess').style.display = 'none';
+            }, 5000);
+        }
+
+        // Fungsi untuk menampilkan pesan error
+        function showErrorMessage() {
+            document.getElementById('rsvpError').style.display = 'block';
+            document.getElementById('rsvpError').scrollIntoView({ behavior: 'smooth' });
+
+            setTimeout(() => {
+                document.getElementById('rsvpError').style.display = 'none';
+            }, 5000);
+        }
+
+        // Tambahkan event listener untuk form submit
+        document.getElementById('rsvpForm').addEventListener('submit', function(event) {
+            // Mencegah form di-submit secara normal
+            event.preventDefault();
+
+            // Perbarui nilai timestamp saat ini
+            const now = new Date().getTime();
+            const dlutInput = document.querySelector('input[name="dlut"]');
+            if (dlutInput) dlutInput.value = now;
+
+            // Kumpulkan data form
+            const formData = new FormData(this);
+
+            // Log data form untuk debugging
+            console.log('Form disubmit dengan data:');
+            let debugText = 'Form data yang dikirim:\n';
+
+            for (let pair of formData.entries()) {
+                console.log(pair[0] + ': ' + pair[1]);
+                debugText += pair[0] + ': ' + pair[1] + '\n';
+            }
+
+            // Tampilkan debug info jika dalam mode development
+            // document.getElementById('debugInfo').style.display = 'block';
+            // document.getElementById('debugContent').textContent = debugText;
+
+            // Kirim data ke Google Forms
+            submitToGoogleForms(formData);
+        });
+
+        // Loading screen
+        window.addEventListener('load', function() {
+            // Sembunyikan loading overlay setelah halaman dimuat
+            setTimeout(function() {
+                const loadingOverlay = document.getElementById('loading-overlay');
+                if (loadingOverlay) {
+                    loadingOverlay.style.opacity = '0';
+                    setTimeout(function() {
+                        loadingOverlay.style.visibility = 'hidden';
+
+                        // Mulai konfeti setelah loading selesai
+                        try {
+                            startConfetti();
+                        } catch (error) {
+                            console.log('Error starting confetti:', error);
+                        }
+                    }, 500);
+                }
+            }, 1500);
+
+            // Tambahkan timeout keamanan untuk memastikan loading screen hilang
+            setTimeout(function() {
+                const loadingOverlay = document.getElementById('loading-overlay');
+                if (loadingOverlay && loadingOverlay.style.visibility !== 'hidden') {
+                    loadingOverlay.style.opacity = '0';
+                    loadingOverlay.style.visibility = 'hidden';
+                }
+            }, 5000); // Timeout keamanan 5 detik
+
+            // Inisialisasi konfeti
+            function startConfetti() {
+                // Periksa apakah ConfettiGenerator tersedia
+                if (typeof ConfettiGenerator === 'undefined') {
+                    console.log('ConfettiGenerator tidak tersedia');
+                    return;
+                }
+
+                try {
+                    const confettiSettings = {
+                        target: 'confetti-canvas',
+                        max: 150,
+                        size: 1.5,
+                        animate: true,
+                        props: ['circle', 'square', 'triangle', 'line'],
+                        colors: [
+                            [13, 92, 62],    // Hijau islami
+                            [212, 175, 55],  // Emas
+                            [141, 110, 99],  // Coklat hangat
+                            [248, 245, 230]  // Krem muda
+                        ],
+                        clock: 25,
+                        rotate: true,
+                        start_from_edge: true,
+                        respawn: false
+                    };
+
+                    const confetti = new ConfettiGenerator(confettiSettings);
+                    confetti.render();
+
+                    // Berhenti setelah 5 detik
+                    setTimeout(function() {
+                        try {
+                            confetti.clear();
+                            const canvas = document.getElementById('confetti-canvas');
+                            if (canvas) {
+                                canvas.style.display = 'none';
+                            }
+                        } catch (error) {
+                            console.log('Error clearing confetti:', error);
+                        }
+                    }, 5000);
+                } catch (error) {
+                    console.log('Error initializing confetti:', error);
+                }
+            }
+        });
+
+        // Efek hover ditangani oleh CSS untuk konsistensi yang lebih baik
+    </script>
+</body>
+</html>

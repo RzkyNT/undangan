@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#f0f0f0" x="0" y="0" width="800" height="600"></rect>
+        <text font-family="Arial" font-size="36" font-weight="bold" fill="#888888" text-anchor="middle" x="400" y="300">
+            <tspan x="400" y="300">Persiapan Perlengkapan</tspan>
+        </text>
+        <rect x="250" y="350" width="300" height="150" rx="10" fill="#0d5c3e"></rect>
+        <rect x="300" y="150" width="200" height="150" rx="10" fill="#d4af37"></rect>
+        <path d="M350,150 L350,100 L450,100 L450,150 Z" fill="#0d5c3e"></path>
+        <circle cx="400" cy="425" r="25" fill="#d4af37"></circle>
+    </g>
+</svg>

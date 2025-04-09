@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#f0f0f0" x="0" y="0" width="800" height="600"></rect>
+        <text font-family="Arial" font-size="36" font-weight="bold" fill="#888888" text-anchor="middle" x="400" y="300">
+            <tspan x="400" y="300">Bersama Keluarga</tspan>
+        </text>
+        <path d="M300,150 C327.614,150 350,172.386 350,200 C350,227.614 327.614,250 300,250 C272.386,250 250,227.614 250,200 C250,172.386 272.386,150 300,150 Z" stroke="#0d5c3e" stroke-width="5"></path>
+        <path d="M300,260 C344.183,260 380,295.817 380,340 L220,340 C220,295.817 255.817,260 300,260 Z" fill="#0d5c3e"></path>
+        <path d="M500,150 C527.614,150 550,172.386 550,200 C550,227.614 527.614,250 500,250 C472.386,250 450,227.614 450,200 C450,172.386 472.386,150 500,150 Z" stroke="#0d5c3e" stroke-width="5"></path>
+        <path d="M500,260 C544.183,260 580,295.817 580,340 L420,340 C420,295.817 455.817,260 500,260 Z" fill="#0d5c3e"></path>
+        <path d="M400,350 C427.614,350 450,372.386 450,400 C450,427.614 427.614,450 400,450 C372.386,450 350,427.614 350,400 C350,372.386 372.386,350 400,350 Z" stroke="#0d5c3e" stroke-width="5"></path>
+        <path d="M400,460 C444.183,460 480,495.817 480,540 L320,540 C320,495.817 355.817,460 400,460 Z" fill="#0d5c3e"></path>
+    </g>
+</svg>

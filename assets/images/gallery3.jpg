@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#f0f0f0" x="0" y="0" width="800" height="600"></rect>
+        <text font-family="Arial" font-size="36" font-weight="bold" fill="#888888" text-anchor="middle" x="400" y="300">
+            <tspan x="400" y="300">Pengajian Keluarga</tspan>
+        </text>
+        <rect x="200" y="350" width="400" height="150" fill="#0d5c3e"></rect>
+        <path d="M250,200 L550,200 L400,100 Z" fill="#d4af37"></path>
+        <path d="M300,350 L300,250 L350,250 L350,350 Z" fill="#d4af37"></path>
+        <circle cx="400" cy="175" r="20" fill="#0d5c3e"></circle>
+    </g>
+</svg>
