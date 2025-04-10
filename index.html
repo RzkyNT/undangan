@@ -212,95 +212,49 @@
                     <a class="modal-next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
 
-                <!-- RSVP Form -->
-                <div class="rsvp-container">
-                    <h3 class="rsvp-title"><i class="fas fa-envelope-open-text"></i> Konfirmasi Kehadiran</h3>
-                    <p>Mohon konfirmasi kehadiran Anda untuk membantu kami mempersiapkan acara dengan baik</p>
+                <!-- Informasi Kontak untuk Konfirmasi -->
+                <div class="contact-container">
+                    <h3 class="contact-title"><i class="fas fa-envelope-open-text"></i> Konfirmasi Kehadiran</h3>
+                    <p>Untuk konfirmasi kehadiran, silakan hubungi kami melalui:</p>
 
-                    <form class="rsvp-form" id="rsvpForm">
-                        <div class="form-group">
-                            <label for="name">Nama Lengkap</label>
-                            <input type="text" id="name" name="entry.1684571444" required>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <a href="https://wa.me/6289560241678" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <p>WhatsApp: <a href="https://wa.me/6289560241678" target="_blank">0895-6024-1678</a></p>
                         </div>
 
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="entry.446052785">
+                        <div class="contact-method">
+                            <a href="tel:+6289560241678" class="fas fa-phone"></a>
+                            <p>Telepon: <a href="tel:+6289560241678">0895-6024-1678</a></p>
                         </div>
 
-                        <div class="form-group">
-                            <label for="phone">Nomor Telepon/WhatsApp</label>
-                            <input type="tel" id="phone" name="entry.1387535761" required>
+                        <div class="contact-method">
+                            <a href="mailto:Rizqiahkhsansetiawan@gmail.com" class="fas fa-envelope"></a>
+                            <p>Email: <a href="mailto:Rizqiahkhsansetiawan@gmail.com" style="font-size: small;">Rizqiahkhsansetiawan@gmail.com</a></p>
                         </div>
-
-                        <div class="form-group">
-                            <label>Konfirmasi Kehadiran</label>
-                            <div class="radio-group">
-                                <div class="radio-option">
-                                    <input type="radio" id="attend-yes" name="entry.610841658" value="Hadir" required>
-                                    <label for="attend-yes">Hadir</label>
-                                </div>
-                                <div class="radio-option">
-                                    <input type="radio" id="attend-no" name="entry.610841658" value="Tidak Hadir">
-                                    <label for="attend-no">Tidak Hadir</label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="guests">Jumlah Tamu</label>
-                            <select id="guests" name="entry.1239766814">
-                                <option value="1 Orang">1 orang</option>
-                                <option value="2 Orang">2 orang</option>
-                                <option value="3 Orang">3 orang</option>
-                                <option value="4 Orang">4 orang</option>
-                                <option value="5+ Orang">5+ orang</option>
-                            </select>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="message">Ucapan & Doa</label>
-                            <textarea id="message" name="entry.581423079" rows="4" placeholder="Sampaikan ucapan dan doa Anda untuk keluarga kami"></textarea>
-                        </div>
-
-                        <!-- Hidden inputs untuk parameter tambahan Google Form -->
-                        <input type="hidden" name="fvv" value="1">
-                        <input type="hidden" name="dlut" value="1744239366702">
-                        <input type="hidden" name="fbzx" value="2939541846976445140">
-                        <input type="hidden" name="pageHistory" value="0">
-                        <input type="hidden" name="entry.610841658_sentinel" value="">
-
-                        <button type="submit">Kirim Konfirmasi</button>
-                    </form>
-
-                    <div id="rsvpSuccess" class="rsvp-message rsvp-success">
-                        <i class="fas fa-check-circle"></i> Terima kasih atas konfirmasi kehadiran Anda! Kami menantikan kehadiran Anda di acara syukuran kami.
                     </div>
 
-                    <div id="rsvpError" class="rsvp-message rsvp-error">
-                        <i class="fas fa-exclamation-circle"></i> Maaf, terjadi kesalahan saat mengirim konfirmasi. Silakan coba lagi atau hubungi kami melalui kontak yang tersedia.
+                    <div class="contact-note">
+                        <p><i class="fas fa-info-circle"></i> Mohon konfirmasi kehadiran Anda untuk membantu kami mempersiapkan acara dengan baik.</p>
                     </div>
+                </div>
 
-                    <div class="rsvp-info" style="margin-top: 20px; font-size: 0.9rem; color: #666;">
-                        <p><i class="fas fa-info-circle"></i> Jika Anda tidak menerima konfirmasi email, jangan khawatir. Kami tetap menerima konfirmasi kehadiran Anda.</p>
-                    </div>
 
-                    <!-- Debug Info untuk membantu troubleshooting -->
-                    <div id="debugInfo" style="display: none; margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 5px; font-family: monospace; font-size: 12px;">
-                        <h4 style="margin-top: 0;">Debug Info (untuk developer):</h4>
-                        <pre id="debugContent"></pre>
-                    </div>
                 </div>
 
                 <div class="contact-info">
                     <h3>Informasi Kontak:</h3>
                     <div class="contact-list">
                         <div class="contact-item">
-                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/62895602416781" target="_blank"></a>
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
                             <p><a class="contact-link" href="https://wa.me/62895602416781">+62 895-6024-16781</a></p>
                         </div>
                         <div class="contact-item">
-                            <i class="fas fa-phone"></i>
+                            <a href="tel:+62895602416781" target="_blank">
+                                <i class="fas fa-phone"></i>
+                            </a>
                             <p><a class="contact-link" href="tel:62895602416781">+62 895-6024-16781</a></p>
                         </div>
                     </div>
@@ -582,162 +536,7 @@
             }
         }
 
-        // RSVP Form Handling dengan Google Forms menggunakan Fetch API
-
-        // Fungsi untuk mengirim data form ke Google Forms
-        function submitToGoogleForms(formData) {
-            const url = 'https://docs.google.com/forms/d/e/1FAIpQLSe_jVKBPyRgmh_xZQqOxmx1Vycxozc73p-UnPDfCSrQhqSVew/formResponse';
-
-            // Konversi FormData ke URLSearchParams
-            const params = new URLSearchParams();
-            for (let pair of formData.entries()) {
-                params.append(pair[0], pair[1]);
-            }
-
-            // Log data yang dikirim
-            console.log('Mengirim data ke Google Forms:', params.toString());
-
-            // Coba metode 1: Fetch API dengan no-cors
-            try {
-                fetch(url, {
-                    method: 'POST',
-                    mode: 'no-cors',
-                    headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded',
-                    },
-                    body: params.toString()
-                })
-                .then(response => {
-                    console.log('Form berhasil dikirim dengan Fetch API');
-                    showSuccessMessage();
-                })
-                .catch(error => {
-                    console.error('Error dengan Fetch API:', error);
-                    // Coba metode 2 jika metode 1 gagal
-                    submitWithXHR(url, params.toString());
-                });
-            } catch (error) {
-                console.error('Error dengan Fetch API:', error);
-                // Coba metode 2 jika metode 1 gagal
-                submitWithXHR(url, params.toString());
-            }
-        }
-
-        // Metode alternatif menggunakan XMLHttpRequest
-        function submitWithXHR(url, data) {
-            console.log('Mencoba mengirim dengan XMLHttpRequest');
-            try {
-                const xhr = new XMLHttpRequest();
-                xhr.open('POST', url, true);
-                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-
-                xhr.onload = function() {
-                    console.log('Form berhasil dikirim dengan XMLHttpRequest');
-                    showSuccessMessage();
-                };
-
-                xhr.onerror = function() {
-                    console.error('Error dengan XMLHttpRequest');
-                    // Coba metode 3: Buat form tersembunyi dan submit secara tradisional
-                    submitWithHiddenForm(url, data);
-                };
-
-                xhr.send(data);
-            } catch (error) {
-                console.error('Error dengan XMLHttpRequest:', error);
-                // Coba metode 3 jika metode 2 gagal
-                submitWithHiddenForm(url, data);
-            }
-        }
-
-        // Metode terakhir menggunakan form tersembunyi
-        function submitWithHiddenForm(url, data) {
-            console.log('Mencoba mengirim dengan form tersembunyi');
-            try {
-                // Buat form tersembunyi
-                const hiddenForm = document.createElement('form');
-                hiddenForm.method = 'POST';
-                hiddenForm.action = url;
-                hiddenForm.target = '_blank';
-                hiddenForm.style.display = 'none';
-
-                // Tambahkan data sebagai input tersembunyi
-                const params = new URLSearchParams(data);
-                for (let pair of params.entries()) {
-                    const input = document.createElement('input');
-                    input.type = 'hidden';
-                    input.name = pair[0];
-                    input.value = pair[1];
-                    hiddenForm.appendChild(input);
-                }
-
-                // Tambahkan form ke body, submit, lalu hapus
-                document.body.appendChild(hiddenForm);
-                hiddenForm.submit();
-
-                // Tampilkan pesan sukses
-                showSuccessMessage();
-
-                // Hapus form setelah beberapa saat
-                setTimeout(() => {
-                    document.body.removeChild(hiddenForm);
-                }, 1000);
-            } catch (error) {
-                console.error('Error dengan form tersembunyi:', error);
-                showErrorMessage();
-            }
-        }
-
-        // Fungsi untuk menampilkan pesan sukses
-        function showSuccessMessage() {
-            document.getElementById('rsvpSuccess').style.display = 'block';
-            document.getElementById('rsvpForm').reset();
-            document.getElementById('rsvpSuccess').scrollIntoView({ behavior: 'smooth' });
-
-            setTimeout(() => {
-                document.getElementById('rsvpSuccess').style.display = 'none';
-            }, 5000);
-        }
-
-        // Fungsi untuk menampilkan pesan error
-        function showErrorMessage() {
-            document.getElementById('rsvpError').style.display = 'block';
-            document.getElementById('rsvpError').scrollIntoView({ behavior: 'smooth' });
-
-            setTimeout(() => {
-                document.getElementById('rsvpError').style.display = 'none';
-            }, 5000);
-        }
-
-        // Tambahkan event listener untuk form submit
-        document.getElementById('rsvpForm').addEventListener('submit', function(event) {
-            // Mencegah form di-submit secara normal
-            event.preventDefault();
-
-            // Perbarui nilai timestamp saat ini
-            const now = new Date().getTime();
-            const dlutInput = document.querySelector('input[name="dlut"]');
-            if (dlutInput) dlutInput.value = now;
-
-            // Kumpulkan data form
-            const formData = new FormData(this);
-
-            // Log data form untuk debugging
-            console.log('Form disubmit dengan data:');
-            let debugText = 'Form data yang dikirim:\n';
-
-            for (let pair of formData.entries()) {
-                console.log(pair[0] + ': ' + pair[1]);
-                debugText += pair[0] + ': ' + pair[1] + '\n';
-            }
-
-            // Tampilkan debug info jika dalam mode development
-            // document.getElementById('debugInfo').style.display = 'block';
-            // document.getElementById('debugContent').textContent = debugText;
-
-            // Kirim data ke Google Forms
-            submitToGoogleForms(formData);
-        });
+        // Tidak ada kode form handling lagi karena form telah diganti dengan informasi kontak
 
         // Loading screen
         window.addEventListener('load', function() {
